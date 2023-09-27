@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
     "certifi",
-    {git = "https://github.com/chribro88/httpcore.git", editable = true, ref = "feature/access_connect_response", subdirectory = "httpcore"},
+    "httpcore@git+https://github.com/chribro88/httpcore#egg=feature/access_connect_response",
     "idna",
     "sniffio",
 ]

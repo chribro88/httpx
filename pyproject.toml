@@ -63,6 +63,7 @@ Source = "https://github.com/encode/httpx"
 
 [tool.hatch.version]
 path = "httpx/__version__.py"
+allow-direct-references = true
 
 [tool.hatch.build.targets.sdist]
 include = [

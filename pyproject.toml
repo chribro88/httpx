@@ -61,9 +61,11 @@ Documentation = "https://www.python-httpx.org"
 Homepage = "https://github.com/encode/httpx"
 Source = "https://github.com/encode/httpx"
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [tool.hatch.version]
 path = "httpx/__version__.py"
-allow-direct-references = true
 
 [tool.hatch.build.targets.sdist]
 include = [
